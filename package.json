@@ -1,0 +1,33 @@
+{
+  "name": "dsh-translate-pro",
+  "version": "0.1.0",
+  "description": "Professional translation plugin for DeepSeek Harness: 18 target languages, 4 styles, glossary control, and whole-file translation (README/docs/subtitles) with format preservation. Powered by DeepSeek via SiliconFlow.",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml"
+  ],
+  "dependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "translate",
+    "translation",
+    "i18n",
+    "tool"
+  ],
+  "license": "MIT"
+}
